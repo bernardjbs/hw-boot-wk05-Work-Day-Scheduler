@@ -56,7 +56,7 @@ function checkTableHours() {
 // Function to populate the schedule table(using bootstrap).
 function populateTable() {
     const startingHour = new Date();
-    startingHour.setHours(20, 0, 0)
+    startingHour.setHours(14, 0, 0)
     for (i = 0; i < 9; i++) {
         startingHour.setHours(startingHour.getHours() + 1);
         str = moment(startingHour).format("HH:mm");
